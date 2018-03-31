@@ -1,4 +1,27 @@
-
+body {
+    background-color: oldlace;
+}
+body h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: darkgreen;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 #carousel {
     margin: 0 auto;
     border: 1px solid black;
