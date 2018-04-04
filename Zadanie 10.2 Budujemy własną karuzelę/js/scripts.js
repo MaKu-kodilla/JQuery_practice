@@ -17,8 +17,8 @@ $(function() {
         clearInterval(timerId);
     }
 
-    $("#carousel ul").mouseenter(stopInterval);
-    $("#carousel ul").mouseleave(runInterval);
+    $("#carousel").mouseenter(stopInterval);
+    $("#carousel").mouseleave(runInterval);
    
     $('#button-prev').click(function() {
         $('#carousel ul').animate({marginLeft: 0}, 500, function() {
