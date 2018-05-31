@@ -1,5 +1,6 @@
 body {
     background-color: oldlace;
+    overflow: hidden;
 }
 body h1 {
     text-align: center;
@@ -50,6 +51,8 @@ body h1 {
     color: white;
     border: none;
     background: none;
+    outline: none;
+    cursor: pointer;
 }
 #button-next {
     top: 50%;
@@ -58,6 +61,8 @@ body h1 {
     color: white;
     border: none;
     background: none;
+    outline: none;
+    cursor: pointer;
 }
 
 
